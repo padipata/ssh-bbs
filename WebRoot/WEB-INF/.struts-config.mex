@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/user.do" location="950,450" dimension="214,84" />
+  <StrutsActivity path="/tip.do" location="650,550" dimension="208,84" />
+  <StrutsActivity path="/login.jsp" location="350,50" dimension="100,48" />
+  <StrutsActivity path="/register.jsp" location="650,150" dimension="118,48" />
+  <StrutsActivity path="/index.jsp" location="950,50" dimension="100,48" />
+  <StrutsActivity path="/topicdetail.jsp" location="50,850" dimension="136,48" />
+  <StrutsActivity path="/topiclist.jsp" location="50,950" dimension="124,48" />
+  <StrutsActivity path="/newtip.jsp" location="1250,450" dimension="106,48" />
+  <StrutsActivity path="/modifyreply.jsp" location="50,250" dimension="136,48" />
+  <StrutsActivity path="/toTopicDetailServlet" location="350,350" dimension="166,48" />
+  <StrutsActivity path="/toModifyReplyServlet" location="650,350" dimension="166,48" />
+  <StrutsActivity path="/doLoginServlet" location="350,250" dimension="130,48" />
+  <StrutsActivity path="/toNewTipServlet" location="50,550" dimension="136,48" />
+  <StrutsActivity path="/toTopicListServlet" location="650,450" dimension="154,48" />
+  <StrutsActivity path="modifyreply.jsp" location="1250,350" dimension="130,48" />
+  <StrutsActivity path="/toModifyReplySeevlet" location="650,250" dimension="166,48" />
+  <StrutsActivity path="/lndex.jsp" location="650,50" dimension="100,48" />
+  <StrutsActivity path="/toTopicdetailServlet" location="50,350" dimension="166,48" />
+  <StrutsActivity path="/i.jsp" location="50,450" dimension="76,48" />
+  <StrutsActivity path="/doDeleteTipServlet" location="350,650" dimension="154,48" />
+  <StrutsActivity path="/d" location="950,750" dimension="52,48" />
+  <StrutsActivity path="" location="350,550" dimension="40,48" />
+  <StrutsActivity path="/newTip" location="50,650" dimension="82,48" />
+  <StrutsActivity path="/topic" location="950,650" dimension="76,48" />
+  <StrutsActivity path="/topiclist" location="50,750" dimension="100,48" />
+  <StrutsActivity path="/modifyreply" location="1250,550" dimension="112,48" />
+  <StrutsTransition id="/tip.do,toTopicList,/tip.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="754,592" />
+      <AbsolutePoint location="754,592" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,doTopicList,/tip.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="754,550" />
+      <AbsolutePoint location="754,513" />
+      <AbsolutePoint location="903,513" />
+      <AbsolutePoint location="903,553" />
+      <AbsolutePoint location="858,553" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,toModifyReply,/modifyreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,613" />
+      <AbsolutePoint location="291,613" />
+      <AbsolutePoint location="291,274" />
+      <AbsolutePoint location="186,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,logined,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1035,450" />
+      <AbsolutePoint location="1035,98" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,toRegister,/register.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1057,492" />
+      <AbsolutePoint location="709,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,toNewTip,/newtip.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="858,613" />
+      <AbsolutePoint location="1455,613" />
+      <AbsolutePoint location="1455,474" />
+      <AbsolutePoint location="1356,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,toTopicDetail,/topicdetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="724,634" />
+      <AbsolutePoint location="724,874" />
+      <AbsolutePoint location="186,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,toLogin,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1000,450" />
+      <AbsolutePoint location="1000,213" />
+      <AbsolutePoint location="400,213" />
+      <AbsolutePoint location="400,98" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,toTopicList,/topiclist.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="754,634" />
+      <AbsolutePoint location="754,974" />
+      <AbsolutePoint location="174,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,doLogin,/user.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1065,450" />
+      <AbsolutePoint location="1065,-25" />
+      <AbsolutePoint location="1209,-25" />
+      <AbsolutePoint location="1209,483" />
+      <AbsolutePoint location="1164,483" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,doTopicDetail,/tip.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="706,634" />
+      <AbsolutePoint location="706,643" />
+      <AbsolutePoint location="989,643" />
+      <AbsolutePoint location="989,631" />
+      <AbsolutePoint location="858,631" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tip.do,doModifyReply,/tip.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="784,634" />
+      <AbsolutePoint location="784,1073" />
+      <AbsolutePoint location="1101,1073" />
+      <AbsolutePoint location="1101,583" />
+      <AbsolutePoint location="858,583" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

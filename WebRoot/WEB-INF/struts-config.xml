@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="tipForm" type="bbs.struts.form.TipForm" />
+    <form-bean name="userForm" type="bbs.struts.form.UserForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+
+    <action
+      attribute="userForm"
+      name="userForm"
+      path="/user"
+      parameter="op"
+      scope="request"
+      type="bbs.struts.action.UserAction">
+      <forward name="logined" path="/index.jsp"/>
+      <forward name="toLogin" path="/login.jsp"/>
+      <forward name="toRegister" path="/register.jsp"/>
+      <forward name="doLogin" path="/user.do?op=doLogin"/>
+    </action>
+    <action
+      attribute="tipForm"
+      name="tipForm"
+      path="/tip"
+      parameter="op"
+      scope="request"
+      type="bbs.struts.action.TipAction">
+      <forward name="doTopicList" path="/tip.do?op=toTopicList"/> 
+      <forward name="doModifyReply" path="/tip.do?op=toModifyReply"/>
+      <forward name="doTopicDetail" path="/tip.do?op=toTopicDetail"/>  
+      <forward name="toModifyReply" path="/modifyreply.jsp"/>
+      <forward name="toNewTip" path="/newtip.jsp"/>
+      <forward name="toTopicDetail" path="/topicdetail.jsp"/>
+      <forward name="toTopicList" path="/topiclist.jsp"/>
+      
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="bbs.struts.ApplicationResources" />
+</struts-config>
+

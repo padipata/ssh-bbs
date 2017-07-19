@@ -1,0 +1,100 @@
+*{ margin-top:0px;
+padding-top:0px;}
+BODY {
+	FONT-SIZE: 12px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#content1 {
+	width: 60%;
+}
+
+#content .t table {
+	margin: 0px;
+	width: 99.99%;
+	border: 1px solid #a6cbe7;
+}
+#ww {
+	text-align: left;
+}
+
+
+#content {
+	width: 70%;
+}
+
+A {
+	COLOR: #2f5fa1; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+TEXTAREA {
+	BORDER-RIGHT: #a6cbe7 1px solid; BORDER-TOP: #a6cbe7 1px solid; BORDER-LEFT: #a6cbe7 1px solid; BORDER-BOTTOM: #a6cbe7 1px solid
+}
+.gray {
+	COLOR: #818a89
+}
+.btn {
+	BORDER-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); BORDER-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2C59AA 1px solid 
+}
+.input {
+	BORDER-RIGHT: #a6cbe7 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #a6cbe7 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 1em; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: middle; BORDER-LEFT: #a6cbe7 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #a6cbe7 1px solid
+}
+.t {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	padding: 0px;
+	border: 0px solid #a6cbe7;
+}
+.h {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	BACKGROUND: #e0f0f9;
+	PADDING-BOTTOM: 2px;
+	COLOR: #004c7d;
+	PADDING-TOP: 6px;
+	BORDER-BOTTOM: #dbecf4 4px solid;
+	TEXT-ALIGN: left;
+	width: 100%;
+}
+.tr2 TH {
+	PADDING-RIGHT: 6px; BORDER-TOP: #a6cbe7 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-TOP: 0px; BORDER-BOTTOM: #daebcd 1px solid
+}
+.tr2 A {
+	MARGIN: 2px; COLOR: #659b28
+}
+.tr3 TD {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #d4eff7 1px solid; BORDER-RIGHT: #d4eff7 1px solid
+}
+.tr3 TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #d4eff7 1px solid; FONT-WEIGHT: normal; TEXT-ALIGN: left; BORDER-RIGHT: #d4eff7 1px solid
+}
+.tipad {
+	PADDING-RIGHT: 0px; BORDER-TOP: #d4eff7 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; PADDING-TOP: 5px
+}
+#header {
+	height: 100px;
+	width: 100%;
+}
+.tr2 td {
+	background-color: #f3f8ef;
+	color: #659b28;
+	border: 1px solid #d4eff7;
+}
+.tr1 TH {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	FONT-WEIGHT: normal;
+	PADDING-BOTTOM: 5px;
+	VERTICAL-ALIGN: top;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: left;
+	BORDER-RIGHT: #d4eff7 1px solid
+}
+.tr1 TD {
+	BORDER-RIGHT: #d4eff7 1px solid; BORDER-TOP: #d4eff7 1px solid; BORDER-LEFT: #d4eff7 1px solid; BORDER-BOTTOM: #d4eff7 1px solid; BORDER-LEFT-WIDTH: 0px
+}
